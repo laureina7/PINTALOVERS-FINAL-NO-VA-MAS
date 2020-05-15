@@ -4,10 +4,11 @@ header{
 .contenido{
     margin-bottom: 30%;
     align-content: flex;
+    margin-top: 5%;
 }
 .imagen1 img{
     margin-top: 3%;
-    margin-left: 4%;
+    margin-left: 10%;
 }
 .login1 form{
     max-width: 25%;
