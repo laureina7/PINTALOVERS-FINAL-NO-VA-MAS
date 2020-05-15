@@ -7,13 +7,12 @@ header{
     margin-top: 5%;
 }
 .imagen1 img{
-    margin-top: 3%;
     margin-left: 10%;
 }
 .login1 form{
     max-width: 25%;
     margin-left: 54%;
-    margin-top: -65%;
+    margin-top: -63%;
     display: block;
     border-style: ridge;
     border-color: #ffffff;
@@ -25,8 +24,8 @@ header{
 }
 .text-informativo{
     font-size: 25px;
-    margin-top: -2%;
-    margin-left: 5%;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 .login1 #user{
     width: 70%;
