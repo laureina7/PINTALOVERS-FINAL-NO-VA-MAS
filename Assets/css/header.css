@@ -55,6 +55,21 @@
         right: 2%;
         top: -5px;
     }
+    .pinceladas{
+        position: relative;
+        width: 70%;
+        z-index: 1;
+        margin-left: 10%;
+        margin-top:-45%;
+        margin-bottom: 35%;
+        z-index: 1;
+    }
+    .logoprincipal{
+        margin-top: 5%;
+        margin-left: 23.1%;
+        z-index: 2;
+        margin-bottom: 20%;
+    }
 }
 @media(max-width:600px){
     .carrito2m{
