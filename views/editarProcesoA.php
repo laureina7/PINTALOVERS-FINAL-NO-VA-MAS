@@ -5,10 +5,9 @@
     include '../database/conexion.php';
     $id = $_POST['id2'];
     $nombres = $_POST["txtnombre"];
-    $email = $_POST["txtemail"];
     $estado = $_POST["txtestado"];
-    $setencia = $bd->prepare("UPDATE usuario SET nombres = ?, email = ?, estado = ? WHERE pin_cuadro = ?;");
-    $resultado = $setencia->execute([$nombres, $email, $estado, $id]);
+    $setencia = $bd->prepare("UPDATE usuario SET nombres = ?, estado = ? WHERE pin_cuadro = ?;");
+    $resultado = $setencia->execute([$nombres, $estado, $id]);
     if(resultado === TRUE){
         echo '<script type="text/javascript">
         alert("Se ha actualizado correctamente");

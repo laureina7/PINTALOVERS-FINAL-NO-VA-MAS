@@ -9,7 +9,7 @@ if (!isset($_GET['id'])) {
     $persona = $setencia->fetch(PDO::FETCH_OBJ);
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,6 @@ if (!isset($_GET['id'])) {
     <form action="editarProcesoA.php" method="POST">
         <div>
            <input type="text" name="txtnombre" id="txtnombre" value="<?php echo $persona->nombres; ?>"  placeholder="ingrese su nombre completo" required>
-           <input type="email" name="txtemail" id="txtemail" value="<?php echo $persona->email; ?>"  placeholder="ingrese su correo" required>
            <select name="txtestado" id="txtestado" require>
                <option value="<?php echo $persona->rol;?>"> Seleccione una opcion</option>
                <option value="activo">Activo</option>
