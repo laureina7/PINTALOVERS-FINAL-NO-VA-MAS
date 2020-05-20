@@ -7,7 +7,7 @@
     $pin = $_POST['txtpin'];
 
     $sentencia = $bd->prepare("INSERT INTO usuario VALUES(?,?,?,?,?,?)");
-    $resultado = $sentencia->execute([$pin,$nombres,$emails,$password,'cliente',1]);
+    $resultado = $sentencia->execute([$pin,$nombres,$emails,$password,'cliente','activo']);
     if($resultado === true){
         echo '<script type="text/javascript">
         alert("Registro exitoso");

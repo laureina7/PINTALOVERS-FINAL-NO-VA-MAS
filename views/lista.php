@@ -34,7 +34,6 @@
         <td>rol</td>
         <td>estado</td>
         <td>Actualizar</td>
-        <td>Inactivar</td>
         <?php
             foreach($cliente as $dato){
                 ?>
@@ -45,8 +44,7 @@
                     <td><?php echo $dato->password_usu?></td>
                     <td><?php echo $dato->rol?></td>
                     <td><?php echo $dato->estado?></td>
-                    <td><a class="boton-actualizar" href="#">Actualizar</a></td>
-                    <td><a class="boton-inactivar" href="#">Inacativar</a></td>
+                    <td><a class="boton-actualizar" href="adminA.php?id=<?php echo $dato->pin_cuadro; ?>">Actualizar</a></td>
                 </tr>
             <?php    
             }
