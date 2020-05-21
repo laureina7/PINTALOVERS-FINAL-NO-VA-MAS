@@ -32,6 +32,20 @@
 tr:nth-child(even){
     background-color: #f2f2f2
 }
+.tabla .Regresar{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3%;
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 20px 33.8px;
+    margin-left: 65%;
+}
+.Regresar:hover{
+    background-color: white;
+    border: 1px solid tomato;
+    color: tomato;
+}
 @media(max-width: 700px){
     .tabla{
         margin-left: 0%;

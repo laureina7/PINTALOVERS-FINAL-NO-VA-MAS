@@ -87,7 +87,11 @@
                 }
                 ?>
         </table>
+        <a href="#">
+            <button class="Regresar">Regresar</button>
+        </a>
     </div>
+
     <script src="java.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -8,7 +8,7 @@
     $estado = $_POST["txtestado"];
     $setencia = $bd->prepare("UPDATE usuario SET nombres = ?, estado = ? WHERE pin_cuadro = ?;");
     $resultado = $setencia->execute([$nombres, $estado, $id]);
-    if(resultado === TRUE){
+    if($resultado === TRUE){
         echo '<script type="text/javascript">
         alert("Se ha actualizado correctamente");
         window.location.href="lista.php";

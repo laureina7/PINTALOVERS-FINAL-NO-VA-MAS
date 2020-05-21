@@ -54,7 +54,7 @@ if (!isset($_GET['id'])) {
         <input type="text" class="ingresar"  name="txtnombre" id="txtnombre" value="<?php echo $persona->nombres; ?>" placeholder="ingrese su nombre completo" required>
         <br>    
         <select name="txtestado" id="txtestado">
-                <option value="<?php echo $persona->rol;?>"> Seleccione una opcion</option>
+                <option value="<?php echo $persona->estado;?>"> Seleccione una opcion</option>
                 <option value="activo">Activo</option>
                 <option value="inactivo">Inactivo</option>
             </select>
