@@ -78,7 +78,9 @@
                 <td><?php echo $dato->password_usu?></td>
                 <td><?php echo $dato->rol?></td>
                 <td><?php echo $dato->estado?></td>
-                <td><a class="boton-actualizar" href="adminA.php?id=<?php echo $dato->pin_cuadro; ?>">Actualizar</a>
+                <td><a class="boton-actualizar" href="adminA.php?id=<?php echo $dato->pin_cuadro; ?>">
+            <img src="../Assets/icons/login/actualizar.svg" alt="actualizar">
+            </a>
                 </td>
             </tr>
             <?php    

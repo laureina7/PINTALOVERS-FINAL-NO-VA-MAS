@@ -26,6 +26,9 @@
 .usuario td{
     padding-bottom: 20px;
 }
+.usuario img{
+    width: 20px;
+}
 tr:nth-child(even){
     background-color: #f2f2f2
 }

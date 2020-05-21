@@ -1,0 +1,76 @@
+.usuario2{
+    border: 3px solid #dddddd;
+    margin-left: 30%;
+    max-width: 40%;
+    text-align:  center;
+    border-radius: 40px;
+}
+.usuario2 h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.ingresar{
+    display: inline; 
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    border: 2px solid #cccccc!important;
+    border-radius: 40px !important;
+    height: 40px;
+    text-align: 10px;
+}
+.usuario2 select{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    width: 70% !important;
+    border: 2px solid #cccccc!important;
+    border-radius: 40px !important;
+    height: 40px;
+    margin-bottom: 3%;
+}
+.actualizar{
+    font-family: 'Roboto', sans-serif;
+    display: inline; 
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    padding: 20px 30px;
+    margin-left: 55%;
+}
+.actualizar:hover{
+    background-color: white;
+    border: 1px solid greenyellow;
+    color: green;
+}
+.position{
+    margin-top: -4.8%;
+    margin-left: 15%;
+}
+.regresar{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 7%;
+    border: none;
+    background-color: tomato;
+    color: white;
+    padding: 20px 33.8px;
+    margin-top: -40%;
+}
+.regresar:hover{
+    background-color: white;
+    border: 1px solid tomato;
+    color: tomato;
+}
+@media(max-width: 800px){
+    .usuario2{
+        margin-left: 5%;
+        max-width: 90%;
+    }
+    .actualizar{
+        margin-left: 0%;
+    }
+    .regresar{
+        margin-top: 10%;
+        margin-left: -18%;
+    }
+}
