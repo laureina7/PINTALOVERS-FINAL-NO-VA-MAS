@@ -1,0 +1,198 @@
+/*General*/
+.divBlock {
+    display: block;
+}
+.contenedorPrincipalPost {
+    box-sizing: border-box;
+    margin-top: 50px;
+    z-index: 0;
+}
+.centerContenedor {
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedorGeneralPosts {
+    height: 1000px;
+    width: 1380px;
+    position: relative;
+    margin: 0 auto;
+}
+.post {
+    top: 0px;
+    left: 0px;
+    transition: transform 1.0s;
+    position: absolute;
+    width: 252px;
+    height: 318px;
+}
+.paddingImage {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 16px;
+}
+.imageVertical {
+    position: relative;
+    width: 100%;
+}
+.imageVertical img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 30px;
+}
+/*Horizontal*/
+.postHorizontal {
+    top: 0px;
+    left: 0px;
+    transition: transform .2s;
+    position: absolute;
+    width: 252px;
+    height: 200px;
+}
+.imageHorizontal {
+    position: relative;
+    width: 100%;
+}
+.imageHorizontal img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 30px;
+}
+#animal1{transform: translateX(0px) translateY(0px);}
+#animal2{transform: translateX(252px) translateY(0px);}
+#animal3{transform: translateX(504px) translateY(0px);}
+#animal4{transform: translateX(756px) translateY(0px);}
+#animal5{transform: translateX(1008px) translateY(0px);}
+#animal6{transform: translateX(0px) translateY(334px);}
+#animal7{transform: translateX(252px) translateY(185px);}
+#animal8{transform: translateX(504px) translateY(334px);}
+#proceso2{transform: translateX(1008px) translateY(320px);}
+#proceso1{transform: translateX(756px) translateY(293px);}
+#animal9{transform: translateX(0px) translateY(668px);}
+#paisaje1{transform: translateX(252px) translateY(516px);}
+#proceso3{transform: translateX(504px) translateY(668px);}
+#proceso4{transform: translateX(756px) translateY(442px);}
+#proceso5{transform: translateX(1008px) translateY(549px);}
+#animal10{transform: translateX(0px) translateY(867px);}
+#animal11{transform: translateX(252px) translateY(768px);}
+#animal12{transform: translateX(504px) translateY(834px);}
+#animal13{transform: translateX(756px) translateY(760px);}
+#animal14{transform: translateX(1008px) translateY(880px);}
+#animal15{transform: translateX(0px) translateY(1197px);}
+#animal16{transform: translateX(252px) translateY(1099px);}
+#arte1{transform: translateX(504px) translateY(1182px);}
+#arte2{transform: translateX(756px) translateY(998px);}
+#arte4{transform: translateX(1008px) translateY(1040px);}
+#arte5{transform: translateX(0px) translateY(1528px);}
+#arte6{transform: translateX(252px) translateY(1430px);}
+#arte7{transform: translateX(504px) translateY(1459px);}
+#ciudad1{transform: translateX(756px) translateY(1312px);}
+#ciudad2{transform: translateX(1008px) translateY(1387px);}
+#ciudad3{transform: translateX(0px) translateY(1898px);}
+#ciudad4{transform: translateX(252px) translateY(1780px);}
+#deporte1{transform: translateX(504px) translateY(1712px);}
+#proceso6{transform: translateX(756px) translateY(1564px);}
+#deporte2{transform: translateX(1008px) translateY(1701px);}
+#deporte3{transform: translateX(0px) translateY(2218px);}
+#deporte4{transform: translateX(252px) translateY(2099px);}
+#deporte5{transform: translateX(504px) translateY(2022px);}
+#deporte6{transform: translateX(756px) translateY(2000px);}
+#famoso1{transform: translateX(1008px) translateY(2032px);}
+#famoso2{transform: translateX(0px) translateY(2547px);}
+#famoso3{transform: translateX(252px) translateY(2376px);}
+#famoso4{transform: translateX(504px) translateY(2353px);}
+#famoso5{transform: translateX(756px) translateY(2428px);}
+#famoso6{transform: translateX(1008px) translateY(2374px);}
+#mandala1{transform: translateX(0px) translateY(2878px);}
+#mandala2{transform: translateX(252px) translateY(2702px);}
+#mandala3{transform: translateX(504px) translateY(2665px);}
+#mandala4{transform: translateX(756px) translateY(2759px);}
+#mandala5{transform: translateX(1008px) translateY(2732px);}
+#mandala6{transform: translateX(0px) translateY(3209px);}
+#paisaje2{transform: translateX(252px) translateY(2991px);}
+#paisaje3{transform: translateX(504px) translateY(2944px);}
+#paisaje4{transform: translateX(756px) translateY(3047px);}
+#paisaje5{transform: translateX(1008px) translateY(2984px);}
+#paisaje6{transform: translateX(0px) translateY(3529px);}
+#pelicula1{transform: translateX(252px) translateY(3302px);}
+#pelicula2{transform: translateX(504px) translateY(3380px);}
+#pelicula3{transform: translateX(756px) translateY(3378px);}
+#paisaje7{transform: translateX(1008px) translateY(3225px);}
+
+/*RESPONSIVE POSTS*/
+
+@media screen and (min-width:800px) and (max-width: 1270px){
+    #animal1{transform: translateX(0px) translateY(0px);}
+    #animal2{transform: translateX(252px) translateY(0px);}
+    #animal3{transform: translateX(504px) translateY(0px);}
+    #animal4{transform: translateX(756px) translateY(0px);}
+    #animal5{transform: translateX(0px) translateY(334px);}
+    #animal6{transform: translateX(252px) translateY(185px);}
+    #animal7{transform: translateX(504px) translateY(334px);}
+    #animal8{transform: translateX(756px) translateY(293px);}
+    #proceso1{transform: translateX(0px) translateY(651px);}
+    #proceso2{transform: translateX(252px) translateY(516px);}
+    #animal9{transform: translateX(504px) translateY(668px);}
+    #paisaje1{transform: translateX(756px) translateY(624px);}
+    #proceso3{transform: translateX(0px) translateY(800px);}
+    #proceso4{transform: translateX(252px) translateY(745px);}
+    #proceso5{transform: translateX(504px) translateY(855px);}
+    #animal10{transform: translateX(756px) translateY(876px);}
+    #animal11{transform: translateX(0px) translateY(963px);}
+    #animal12{transform: translateX(252px) translateY(1056px);}
+    #animal13{transform: translateX(504px) translateY(1186px);}
+    #animal14{transform: translateX(756px) translateY(1207px);}
+    #animal15{transform: translateX(0px) translateY(1294px);}
+    #animal16{transform: translateX(252px) translateY(1408px);}
+    #arte1{transform: translateX(504px) translateY(1424px);}
+    #arte2{transform: translateX(756px) translateY(1366px);}
+    #arte4{transform: translateX(0px) translateY(1625px);}
+    #arte5{transform: translateX(252px) translateY(1739px);}
+    #arte6{transform: translateX(504px) translateY(1701px);}
+    #arte7{transform: translateX(756px) translateY(1678px);}
+    #ciudad1{transform: translateX(0px) translateY(1972px);}
+    #ciudad2{transform: translateX(252px) translateY(2109px);}
+    #ciudad3{transform: translateX(504px) translateY(2051px);}
+    #ciudad4{transform: translateX(756px) translateY(1931px);}
+    #deporte1{transform: translateX(0px) translateY(2224px);}
+    #proceso6{transform: translateX(252px) translateY(2423px);}
+    #deporte2{transform: translateX(504px) translateY(2371px);}
+    #deporte3{transform: translateX(756px) translateY(2250px);}
+    #deporte4{transform: translateX(0px) translateY(2534px);}
+    #deporte5{transform: translateX(252px) translateY(2859px);}
+    #deporte6{transform: translateX(504px) translateY(2702px);}
+    #famoso1{transform: translateX(756px) translateY(2579px);}
+    #famoso2{transform: translateX(0px) translateY(3209px);}
+    #famoso3{transform: translateX(252px) translateY(2991px);}
+    #famoso4{transform: translateX(504px) translateY(3130px);}
+    #famoso5{transform: translateX(756px) translateY(3047px);}
+    #famoso6{transform: translateX(0px) translateY(3529px);}
+    #mandala1{transform: translateX(252px) translateY(3302px);}
+    #mandala2{transform: translateX(504px) translateY(3442px);}
+    #mandala3{transform: translateX(756px) translateY(2921px);}
+    #mandala4{transform: translateX(0px) translateY(2811px);}
+    #mandala5{transform: translateX(252px) translateY(3190px);}
+
+    #mandala6{transform: translateX(504px) translateY(3728px);}
+    #paisaje2{transform: translateX(756px) translateY(3200px);}
+    #paisaje3{transform: translateX(0px) translateY(3099px);}
+    #paisaje4{transform: translateX(252px) translateY(3442px);}
+    #paisaje5{transform: translateX(504px) translateY(4048px);}
+    #paisaje6{transform: translateX(756px) translateY(3531px);}
+    #pelicula1{transform: translateX(0px) translateY(3887px);}
+    #pelicula2{transform: translateX(252px) translateY(3773px);}
+    #pelicula3{transform: translateX(504px) translateY(4289px);}
+    #paisaje7{transform: translateX(756px) translateY(3845px);}
+}
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (max-width: 1360px){
+
+}
+@media screen and (max-width: 1280px){
+
+}

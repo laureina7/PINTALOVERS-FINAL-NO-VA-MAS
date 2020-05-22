@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    background: #B3B3B3;
+    color: #242620;   
+    font-family: 'Roboto', sans-serif;
+}
+.generalContenedorFooter {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+}

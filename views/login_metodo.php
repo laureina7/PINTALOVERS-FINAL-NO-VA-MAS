@@ -19,7 +19,7 @@
        $_SESSION['estado'] = $datos->estado;
        echo '<script type="text/javascript">
        alert("Ha iniciado sesion");
-       window.location.href="lista.php";
+       window.location.href="index.php";
        </script>';
     }
 ?>

@@ -10,13 +10,13 @@
     $password1 = $_POST["txtrpassword"];
     if ($password != $password1) {
         echo '<script type="text/javascript">
-        alert("Las contraseña debe ser diferente");
+        alert("Las contraseña debe ser iguales");
         window.location.href="clienteA.php";
         </script>';
     }else{
-    $setencia = $bd->prepare("UPDATE usuario SET nombres = ?, email = ?, password_usu = ?, estado = ? WHERE pin_cuadro = ?;");
-    $resultado = $setencia->execute([$nombres, $estado, $id]);
-    if(resultado === TRUE){
+    $setencia = $bd->prepare("UPDATE usuario SET nombres = ?, email = ?, password_usu = ? WHERE pin_cuadro = ?;");
+    $resultado = $setencia->execute([$nombres, $email, $password, $id]);
+    if($resultado === TRUE){
         echo '<script type="text/javascript">
         alert("Se ha actualizado correctamente");
         window.location.href="index.php";

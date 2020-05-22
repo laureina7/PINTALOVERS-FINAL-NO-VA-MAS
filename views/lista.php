@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
     session_start();
     if (!isset($_SESSION['nombres'])) {
         header('Location:login.php');
@@ -12,7 +12,7 @@
         window.location.href="index.php";
         </script>';
     }
-?> -->
+?>
 <!DOCTYPE html>
 <html lang="es">
 
