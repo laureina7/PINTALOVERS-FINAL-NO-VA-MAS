@@ -73,7 +73,7 @@
                 <br><br>
                 <input type="submit" value="Registrarse" id="sesion" name="sesion">
                 <br><br>
-                <p>¿Tienes una cuenta? <a href="login.html">Inaciar sesión</a></p>
+                <p>¿Tienes una cuenta? <a href="login.php">Iniciar sesión</a></p>
             </form>
         </div>
         </div>

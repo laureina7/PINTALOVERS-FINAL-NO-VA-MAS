@@ -77,7 +77,7 @@
                 <br>
                 <a href="#">¿Olvidastes la contraseña?</a>
                 <br><br>
-                <input type="submit" value="Inciar Sesión" id="sesion" name="sesion">
+                <input type="submit" value="Iniciar Sesión" id="sesion" name="sesion">
                 <br><br>
                 <a href="#" class="redes-sociales">
                     <img src="../Assets/icons/login/Iconos PINTALOVERS/facebook.svg" alt="facebook">
