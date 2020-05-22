@@ -12,6 +12,7 @@
         window.location.href="index.php";
         </script>';
     }
+    $estado="Administrador";
 ?>
 <!DOCTYPE html>
 <html lang="ES-es">
@@ -47,7 +48,7 @@
             <!-- <span class="caret"></span> -->
         </button>
         <?php
-            if ($_SESSION['estado'] === 'Administrador') {
+            if ($_SESSION['rol'] == $estado) {
         ?>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li><a href="#">Ver Perfil</a></li>
@@ -55,6 +56,7 @@
             <li><a href="#">Seguidores</a></li>
             <li><a href="#">Seguidos</a></li>
             <li><a href="#">Lista de gustos</a></li>
+            <li><a href="clienteA.php">Actualizar datos</a></li>
             <li><a href="lista.php">Lista de clientes</a></li>
             <li><a href="#" class="adicional1">Chat</a></li>
             <li class="hola">
