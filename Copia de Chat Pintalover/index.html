@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="css/addons-pro/chat.css" rel="stylesheet">
+  <!-- Chat CSS - minified-->
+  <link href="css/addons-pro/chat.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="css/chat1.css">
+
+
+</head>
+
+<body>
+    <!-- Main layout -->
+    <div class="container">
+    <main class="mt-n12">
+     
+
+        <!-- Grid row -->
+        <div class="row d-flex flex-row-reverse">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mb-4 d-flex flex-row-reverse">
+
+
+            <div class="card chat-room small-chat wide" id="myForm">
+              <div class="card-header d-flex justify-content-between fondo p-2" id="toggle" style="cursor: pointer;">
+                <div class="heading d-flex justify-content-start">
+                  <div class="profile-photo">
+                    <img src="img/lau.png" alt="avatar" class="avatar rounded-circle mr-2 ml-0">
+                    <span class="state"></span>
+                  </div>
+                  <div class="data">
+                    <p class="name mb-0"><strong>Laura Reina</strong></p>
+                    <p class="activity text-muted1 mb-0">Active now</p>
+                  </div>
+                </div>
+                <div class="icons grey-text">
+                  <a class="feature"><i class="fas fa-video mr-2"></i></a>
+                  <a class="feature"><i class="fas fa-phone mr-2"></i></a>
+                  <a class="feature"><i class="fas fa-cog mr-2"></i></a>
+                  <a type="button" id="closeButton"><i class="fas fa-times mr-2"></i></a>
+                </div>
+              </div>
+              <div class="my-custom-scrollbar">
+                <div class="card-body p-3 ">
+                  <div class="chat-message">
+                    <div class="media mb-3">
+                      <img class="d-flex rounded mr-2" src="img/lau.png" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <p class="my-0">Pintalover</p>
+                        <p class="mb-0 text-muted">Apasionado por las cuadros</p>
+                        <p class="mb-0 text-muted">Ha pintado 50 cuadros</p>
+                      </div>
+                    </div>
+                    <div class="card bg-primary rounded w-75 float-right z-depth-0 mb-1">
+                      <div class="card-body p-2">
+                        <p class="card-text text-white">Hola Laura </p>
+                      </div>
+                    </div>
+                    <div class="card bg-primary rounded w-50 float-right z-depth-0 mb-2">
+                      <div class="card-body p-2">
+                        <p class="card-text text-white">¿Si te llego el cuadro que te recomende? </p>
+                      </div>
+                    </div>
+                    <div class="card bg-light rounded w-75 z-depth-0 mb-1 message-text">
+                      <div class="card-body p-2">
+                        <p class="card-text black-text">Siiiii!! puedes creerlo que lo tenian en Stock!!</p>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-start">
+                      <div class="profile-photo message-photo">
+                        <img src="img/lau.png" alt="avatar" class="avatar rounded-circle mr-2 ml-0">
+                        <span class="state"></span>
+                      </div>
+                      <div class="card bg-light rounded w-75 z-depth-0 mb-2">
+                        <div class="card-body p-2">
+                          <p class="card-text black-text">Esta divino! quiero empezarlo ya!!!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-primary rounded w-75 float-right z-depth-0 mb-2">
+                      <div class="card-body p-2">
+                        <p class="card-text text-white">Estuviste de buenas porque andan sin inventario por el Covid</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer text-muted white pt-1 pb-2 px-3">
+                <input type="text" id="exampleForm2" class="form-control" placeholder="Type a message...">
+                <a onclick="laura()"><i class="fas fa-paper-plane mr-2"></i></a>
+                <div>
+                  <a><i class="far fa-file-image mr-2"></i></a>
+                  <a><i class="far fa-laugh mr-2"></i></a>
+                  <a><i class="fas fa-paperclip mr-2"></i></a>
+                  <a><i class="fas fa-camera mr-2"></i></a>
+                  <a><i class="fas fa-thumbs-up float-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+      </main>
+      </div>
+  
+
+  <!-- Main layout -->
+
+
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- <script type="text/javascript" src="js/java.js"></script> -->
+  <!-- Your custom scripts (optional) -->
+  <script> const laura = () => {
+      var text1 = $("#exampleForm2").val()
+      var mensaje = `<div class="card bg-primary rounded w-75 float-right z-depth-0 mb-2">
+                    <div class="card-body p-2">
+                      <p class="card-text text-white">${text1}</p>
+                    </div>
+                  </div>`
+      $(".my-custom-scrollbar").append(mensaje)
+      $("#exampleForm2").val("")
+    } </script>
+
+
+</body>
+
+</html>
