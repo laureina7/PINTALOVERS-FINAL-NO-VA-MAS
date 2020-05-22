@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../Assets/css/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../Assets/css/header.css">
-    <link rel="shortcut icon" href="../Assets/icons/logo_tipo_pintala_pequeno_115x.png">
+    <link rel="shortcut icon" href="../Assets/images/PINTALOVERS/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="../Assets/css/login.css">
 </head>
 
 <body>
@@ -20,7 +19,6 @@
             <div class="fondo-logo">
                 <a href="#" class="brand-logo">
                     <img src="../Assets/icons/logo_tipo_pintala_pequeno_115x.png" alt="logo" class="logoprincipal">
-                    <img src="../Assets/images/PINTALOVERS/pinceladas.png" alt="pinceladas" class="pinceladas">
                 </a>
             </div>
             <a href="#" data-target="menu-responsive" class="sidenav-trigger">

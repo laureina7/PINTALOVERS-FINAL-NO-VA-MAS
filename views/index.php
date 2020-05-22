@@ -22,7 +22,7 @@
     <link rel="shortcut icon" href="../Assets/images/PINTALOVERS/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Assets/css/header.css">
+    <link rel="stylesheet" href="../Assets/css/header1.css">
     <link rel="stylesheet" href="../Assets/css/postgeneral.css">
     <link rel="stylesheet" href="../Assets/css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -36,7 +36,9 @@
 <body>
 <div class="todo">
     <div class="encendido">
-        <img src="imagenes/sesion.svg" alt="">
+        <a href="cerrar.php">
+            <img src="../Assets/images/imagenes/sesion.svg" alt="">
+        </a>
     </div>
     <div class="dropdown">
         <button class="btn btn-default" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
@@ -55,7 +57,9 @@
             <li><a href="#">Lista de gustos</a></li>
             <li><a href="lista.php">Lista de clientes</a></li>
             <li><a href="#" class="adicional1">Chat</a></li>
-            <li class="hola"><a href="#" class="adicional2" style="color: white;">Cerrar Sesión</a></li>
+            <li class="hola">
+                <a href="cerrar.php" class="adicional2" style="color: white;">Cerrar Sesión</a>
+            </li>
         </ul>
     <?php
         }else{
@@ -68,7 +72,9 @@
             <li><a href="#">Lista de gustos</a></li>
             <li><a href="clienteA.php">Actualizar datos</a></li>
             <li><a href="#" class="adicional1">Chat</a></li>
-            <li class="hola"><a href="#" class="adicional2" style="color: white;">Cerrar Sesión</a></li>
+            <li class="hola">
+                <a href="cerrar.php" class="adicional2" style="color: white;">Cerrar Sesión</a>
+            </li>
         </ul>
     <?php
     }

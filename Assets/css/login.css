@@ -1,6 +1,10 @@
 header{
     margin-left: 5%;
 }
+.fondo-logo img{
+    margin-top: 25%;
+    margin-left: 100%;
+}
 .contenido{
     margin-bottom: 30%;
     align-content: flex;
@@ -26,6 +30,10 @@ header{
     font-size: 25px;
     margin-top: 1%;
     margin-left: 10%;
+}
+.right{
+    margin-right: 10% !important;
+    margin-top: 1%;
 }
 .login1 .user{
     width: 70% !important;
@@ -76,9 +84,9 @@ header{
         margin-top: -19%;
     }
     .login1 form{
-        max-width: 25%;
+        max-width: 35%;
         margin-left: 54%;
-        margin-top: -73%;
+        margin-top: -70%;
         display: block;
         border-style: ridge;
         border-color: #ffffff;
@@ -90,7 +98,7 @@ header{
     }
     .imagen1 img{
         width: 45%;
-        margin-top: 10%;
+        margin-top: 25%;
         margin-left: 4%;
     }
     .redes-sociales p{
@@ -119,9 +127,17 @@ header{
     }
 }
 @media(max-width:1000px){
+    .carrito2m{
+        margin-left: 90%;
+        margin-top: -5%;
+    }
+    .fondo-logo img{
+        margin-top: 25%;
+        margin-left: 25%;
+    }
     .imagen1 img{
         width: 90%;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 4%;
     }
     .login1 form{
